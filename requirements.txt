@@ -1,1 +1,13 @@
+# List of libraries 
 
+- pandas
+- numpy
+- xgboost
+- matplotlib
+- seaborn
+- sklearn
+- joblib
+- plotly
+
+Google Colab
+python version 3.12.12
