@@ -72,31 +72,27 @@ Our workflow followed a clean, modular pipeline split across six notebooks:
 - Evaluated using accuracy & classification report  
 
 ### Evaluation & Analysis
-- Accuracy  
-- Confusion matrix  
-- Feature importance ranking  
+- Model Comparison:               
+- Model  roc_auc             
+ - xgboost 0.959185       
+ - random_forest 0.957479   
+ - gradient_boosting 0.925504 
+ - logistic_regression 0.856473
 
 
----
+## Summary of Results 
 
-## Summary of Results
+- XGBoostModel Performance Metrics:   
+  - ROC-AUC Score: 0.9611   
+  - PR-AUC Score: 0.9426  
+  - Accuracy: 0.8948  
+  - Precision: 0.8718   
+  - Recall: 0.8393   
+  - F1-Score: 0.8553
 
-| Metric | Value |
-|--------|--------|
-| **Accuracy** | ~XX% |
-| **Precision** | XX% |
-| **Recall** | XX% |
-| **F1-score** | XX% |
 
-> *(Replace XX with your actual results from Step 5.)*
 
-###  Key Observations
-- Lead time, previous cancellations, and ADR are strong predictors.  
-- Repeated guests are less likely to cancel.  
-- Longer stays have slightly higher cancellation likelihood.  
 
----
 
-##  Project Structure
 
 
