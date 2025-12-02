@@ -65,10 +65,10 @@ Our workflow followed a clean, modular pipeline split across six notebooks:
 - Feature–target split  
 - Train/test split  
 - Trained models
-    Logistic Regression​
-    Random Forest​
-    Gradient Boosting ​
-    XGBoost​
+    - Logistic Regression​
+    - Random Forest​
+    - Gradient Boosting ​
+    - XGBoost​
 - Evaluated using accuracy & classification report  
 
 ### Evaluation & Analysis
